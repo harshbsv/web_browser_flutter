@@ -23,24 +23,24 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_inappwebview: ^4.0.0+4
-  flutter_downloader: ^1.4.4
-  path_provider: ^1.6.9
-  permission_handler: ^5.0.0+hotfix.6
-  provider: ^4.1.3
-  cached_network_image: ^2.2.0+1
-  share: ^0.6.4+3
-  share_extend: ^1.1.7
-  charts_flutter: ^0.9.0
-  flutter_datetime_picker: ^1.3.8
-  intl: ^0.16.1
-  crypto: 2.1.4
-  shared_preferences: '>=0.5.7+3 <2.0.0'
-  package_info: '>=0.4.1 <2.0.0'
-  flutter_icons: ^1.1.0
-  flutter_svg: ^0.18.0
-  mime: ^0.9.6+3
-  url_launcher: ^5.4.11
+  flutter_inappwebview: 
+  flutter_downloader: 
+  path_provider: 
+  permission_handler: 
+  provider: 
+  cached_network_image: 
+  share: 
+  share_extend: 
+  charts_flutter: 
+  flutter_datetime_picker: 
+  intl: 
+  crypto: 
+  shared_preferences: 
+  package_info: 
+  flutter_icons: 
+  flutter_svg: 
+  mime: 
+  url_launcher: 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
