@@ -1,6 +1,6 @@
 # web_browser
 
-A new Flutter project.
+A Flutter project. This project is a fully-functioning Web browser, inspired by Google Chrome. Complete with all basic features of a modern browser.
 
 ## Getting Started
 
