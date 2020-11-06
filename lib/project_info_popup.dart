@@ -47,12 +47,13 @@ class _ProjectInfoPopupState extends State<ProjectInfoPopup> {
         ),
         onPressed: () {
           InAppBrowser.openWithSystemBrowser(
-              url: "https://github.com/harshbsv/");
+              url: "https://github.com/harshbsv/web_browser_flutter");
         },
       ),
       RichText(
         text: TextSpan(children: [
-          TextSpan(text: "and to", style: TextStyle(color: Colors.black)),
+          TextSpan(
+              text: "and a follow to", style: TextStyle(color: Colors.black)),
         ]),
       ),
       FlatButton.icon(
@@ -63,9 +64,7 @@ class _ProjectInfoPopupState extends State<ProjectInfoPopup> {
         label: RichText(
           text: TextSpan(children: [
             TextSpan(text: "Github: ", style: TextStyle(color: Colors.black)),
-            TextSpan(
-                text: "harshbsv/web_browser_flutter",
-                style: TextStyle(color: Colors.blue))
+            TextSpan(text: "harshbsv", style: TextStyle(color: Colors.blue))
           ]),
         ),
         onPressed: () {

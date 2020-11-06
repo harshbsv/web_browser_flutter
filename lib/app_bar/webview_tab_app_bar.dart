@@ -91,14 +91,13 @@ class _WebViewTabAppBarState extends State<WebViewTabAppBar>
           }
 
           Widget leading = _buildAppBarHomePageWidget();
-
           return Selector<WebViewModel, bool>(
               selector: (context, webViewModel) => webViewModel.isIncognitoMode,
               builder: (context, isIncognitoMode, child) {
                 return leading != null
                     ? AppBar(
                         backgroundColor:
-                            isIncognitoMode ? Colors.black87 : Colors.blue,
+                            isIncognitoMode ? Colors.black87 : Colors.purple,
                         leading: _buildAppBarHomePageWidget(),
                         titleSpacing: 0.0,
                         title: _buildSearchTextField(),
@@ -106,7 +105,7 @@ class _WebViewTabAppBarState extends State<WebViewTabAppBar>
                       )
                     : AppBar(
                         backgroundColor:
-                            isIncognitoMode ? Colors.black87 : Colors.blue,
+                            isIncognitoMode ? Colors.black87 : Colors.purple,
                         titleSpacing: 10.0,
                         title: _buildSearchTextField(),
                         actions: _buildActionsMenu(),
@@ -118,7 +117,6 @@ class _WebViewTabAppBarState extends State<WebViewTabAppBar>
   Widget _buildAppBarHomePageWidget() {
     var browserModel = Provider.of<BrowserModel>(context, listen: true);
     var settings = browserModel.getSettings();
-
     var webViewModel = Provider.of<WebViewModel>(context, listen: true);
     var _webViewController = webViewModel?.webViewController;
 
@@ -145,7 +143,6 @@ class _WebViewTabAppBarState extends State<WebViewTabAppBar>
   Widget _buildSearchTextField() {
     var browserModel = Provider.of<BrowserModel>(context, listen: true);
     var settings = browserModel.getSettings();
-
     var webViewModel = Provider.of<WebViewModel>(context, listen: true);
     var _webViewController = webViewModel?.webViewController;
 

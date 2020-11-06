@@ -46,7 +46,8 @@ class _SettingsPageState extends State<SettingsPage> {
                       width: 25,
                       height: 25,
                       child: CircleAvatar(
-                        backgroundImage: AssetImage("assets/icon/icon.png"),
+                        backgroundImage:
+                            AssetImage("assets/icon/search_app.png"),
                       ),
                     ),
                   ),

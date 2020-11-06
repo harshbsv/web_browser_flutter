@@ -43,7 +43,7 @@ class _BrowserState extends State<Browser> with SingleTickerProviderStateMixin {
       _isRestored = true;
       restore();
     }
-    precacheImage(AssetImage("assets/icon/icon.png"), context);
+    precacheImage(AssetImage("assets/icon/search_app.png"), context);
   }
 
   @override

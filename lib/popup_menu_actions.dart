@@ -9,7 +9,7 @@ class PopupMenuActions {
   static const String DESKTOP_MODE = "Desktop mode";
   static const String SETTINGS = "Settings";
   static const String DEVELOPERS = "Developers";
-  static const String INAPPWEBVIEW_PROJECT = "InAppWebView Project";
+  static const String INAPPWEBVIEW_PROJECT = "About this Project";
 
   static const List<String> choices = <String>[
     NEW_TAB,

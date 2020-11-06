@@ -185,7 +185,7 @@ class _CrossPlatformSettingsState extends State<CrossPlatformSettings> {
                 packageInfo.buildNumber;
           }
           return ListTile(
-            title: const Text("Flutter Browser Package Info"),
+            title: const Text("Web Browser Package Info"),
             subtitle: Text(packageDescription),
             onLongPress: () {
               Clipboard.setData(ClipboardData(text: packageDescription));
@@ -198,12 +198,11 @@ class _CrossPlatformSettingsState extends State<CrossPlatformSettings> {
           height: 35,
           width: 35,
           margin: EdgeInsets.only(top: 6.0, left: 6.0),
-          child:
-              CircleAvatar(backgroundImage: AssetImage("assets/icon/icon.png")),
+          child: CircleAvatar(
+              backgroundImage: AssetImage("assets/icon/search_app.png")),
         ),
-        title: const Text("Flutter InAppWebView Project"),
-        subtitle:
-            Text("https://github.com/pichillilorenzo/flutter_inappwebview"),
+        title: Text("Web Browser Project"),
+        subtitle: Text("https://github.com/harshbsv/web_browser_flutter"),
         trailing: Icon(Icons.arrow_forward),
         onLongPress: () {
           showGeneralDialog(

@@ -27,7 +27,12 @@ class _EmptyTabState extends State<EmptyTab> {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Image(image: AssetImage(settings.searchEngine.assetIcon)),
+            Image(
+              image: AssetImage(
+                settings.searchEngine.assetIcon,
+              ),
+              width: 250,
+            ),
             SizedBox(
               height: 10,
             ),
@@ -43,7 +48,7 @@ class _EmptyTabState extends State<EmptyTab> {
                   textInputAction: TextInputAction.go,
                   decoration: InputDecoration(
                     hintText: "Search for or type a web address",
-                    hintStyle: TextStyle(color: Colors.black54, fontSize: 25.0),
+                    hintStyle: TextStyle(color: Colors.black54, fontSize: 20.0),
                   ),
                   style: TextStyle(
                     color: Colors.black,

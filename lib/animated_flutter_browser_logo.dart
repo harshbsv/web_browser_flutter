@@ -37,12 +37,17 @@ class _AnimatedFlutterBrowserLogoState extends State<AnimatedFlutterBrowserLogo>
   Widget build(BuildContext context) {
     return ScaleTransition(
       scale: Tween(begin: 0.75, end: 2.0).animate(
-          CurvedAnimation(parent: _controller, curve: Curves.elasticOut)),
+        CurvedAnimation(
+          parent: _controller,
+          curve: Curves.elasticOut,
+        ),
+      ),
       child: SizedBox(
         height: widget.size,
         width: widget.size,
-        child:
-            CircleAvatar(backgroundImage: AssetImage("assets/icon/icon.png")),
+        child: CircleAvatar(
+          backgroundImage: AssetImage("assets/icon/search_app.png"),
+        ),
       ),
     );
   }
