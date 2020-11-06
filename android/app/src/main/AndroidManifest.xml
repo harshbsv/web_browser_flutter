@@ -2,7 +2,7 @@
     package="com.example.web_browser">
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="Flutter Browser"
+        android:label="Simple Browser"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
